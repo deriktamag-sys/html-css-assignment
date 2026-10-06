@@ -3,7 +3,7 @@
 ## Student Information
 
 - **Student Name:** Derik Tamang
-- **Student ID:** __________________
+- **Student ID:** 2610412745
 - **Module Name:** Web Technologies and Platforms
 - **Assignment Title:** Designing a Navigation Bar and Card Components Using HTML & CSS
 
@@ -193,7 +193,7 @@ I understand that I am responsible for explaining the final code during the prac
 
 ## GitHub
 
-Repository link: ______________________________
+Repository link: https://github.com/deriktamag-sys/html-css-assignment.git
 
 ## Final Checklist
 
