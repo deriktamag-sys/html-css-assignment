@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNest | HTML & CSS Practical Assignment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- =========================
+         TASK 1: NAVIGATION BAR
+         ========================= -->
+    <header id="home">
+        <nav class="site-nav">
+            <div class="brand">TechNest</div>
+
+            <ul class="nav-links">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- =========================
+         TASK 4: MAIN CONTENT
+         ========================= -->
+    <main>
+        <section class="hero" id="about">
+            <p class="eyebrow">HTML5 + CSS3 PRACTICAL PROJECT</p>
+            <h1>Simple Technology, Clearly Designed.</h1>
+            <p>
+                TechNest is a sample technology store webpage created to demonstrate
+                HTML structure and fundamental CSS styling concepts such as selectors,
+                colors, spacing, borders, images, inline-block layout and hover effects.
+            </p>
+            <a class="hero-button" href="#products">Explore Products</a>
+        </section>
+
+        <!-- =========================
+             TASK 2: SINGLE PRODUCT CARD
+             ========================= -->
+        <section class="assignment-section" id="products">
+            <div class="section-heading">
+                <p class="eyebrow">TASK 2</p>
+                <h2>Featured Product</h2>
+                <p>A professional product card created using basic HTML and CSS.</p>
+            </div>
+
+            <div class="single-card-area">
+                <article class="product-card featured-card">
+                    <img src="images/laptop.png" alt="TechPro X15 laptop">
+                    <div class="card-content">
+                        <p class="product-category">LAPTOP</p>
+                        <h3>TechPro X15</h3>
+                        <p class="description">
+                            A powerful everyday laptop designed for programming,
+                            study, creative work and productivity.
+                        </p>
+                        <p class="product-info"><strong>Processor:</strong> Core i7</p>
+                        <p class="product-info"><strong>Memory:</strong> 16 GB RAM</p>
+                        <p class="price">NPR 125,000</p>
+                        <a class="card-button" href="#contact">View Product</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================
+             TASK 3: MULTIPLE CARDS
+             ========================= -->
+        <section class="assignment-section light-section" id="featured">
+            <div class="section-heading">
+                <p class="eyebrow">TASK 3</p>
+                <h2>Our Technology Products</h2>
+                <p>Four cards with the same visual design and consistent styling.</p>
+            </div>
+
+            <div class="card-section">
+
+                <article class="product-card">
+                    <img src="images/laptop.png" alt="TechPro X15 laptop">
+                    <div class="card-content">
+                        <p class="product-category">LAPTOP</p>
+                        <h3>TechPro X15</h3>
+                        <p class="description">
+                            Built for coding, study, design and everyday productivity.
+                        </p>
+                        <p class="product-info"><strong>RAM:</strong> 16 GB</p>
+                        <p class="price">NPR 125,000</p>
+                        <a class="card-button" href="#contact">View Product</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/headphones.png" alt="SoundMax Pro headphones">
+                    <div class="card-content">
+                        <p class="product-category">AUDIO</p>
+                        <h3>SoundMax Pro</h3>
+                        <p class="description">
+                            Comfortable wireless headphones for music, classes and travel.
+                        </p>
+                        <p class="product-info"><strong>Battery:</strong> 35 hours</p>
+                        <p class="price">NPR 12,500</p>
+                        <a class="card-button" href="#contact">View Product</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/keyboard.png" alt="KeyCraft mechanical keyboard">
+                    <div class="card-content">
+                        <p class="product-category">KEYBOARD</p>
+                        <h3>KeyCraft 75</h3>
+                        <p class="description">
+                            A compact mechanical keyboard made for comfortable daily typing.
+                        </p>
+                        <p class="product-info"><strong>Layout:</strong> 75%</p>
+                        <p class="price">NPR 8,900</p>
+                        <a class="card-button" href="#contact">View Product</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/ssd.png" alt="FastCore NVMe SSD">
+                    <div class="card-content">
+                        <p class="product-category">STORAGE</p>
+                        <h3>FastCore 1TB</h3>
+                        <p class="description">
+                            Fast NVMe storage for projects, software and large media files.
+                        </p>
+                        <p class="product-info"><strong>Capacity:</strong> 1 TB</p>
+                        <p class="price">NPR 11,500</p>
+                        <a class="card-button" href="#contact">View Product</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================
+         TASK 4: FOOTER
+         ========================= -->
+    <footer id="contact">
+        <div class="footer-content">
+            <h2>TechNest</h2>
+            <p>HTML & CSS Practical Assignment</p>
+            <p>Web Technologies and Platforms</p>
+            <p class="copyright">© 2026 TechNest. Created for educational purposes.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

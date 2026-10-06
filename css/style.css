@@ -1,0 +1,275 @@
+/* ==========================================
+   GLOBAL STYLES
+   ========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #172033;
+    background-color: #f5f7fb;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==========================================
+   TASK 1: NAVIGATION BAR
+   Uses float and normal CSS flow.
+   No Flexbox or CSS Grid is used.
+   ========================================== */
+
+.site-nav {
+    min-height: 72px;
+    background-color: #111827;
+    border-bottom: 3px solid #38bdf8;
+    padding: 0 7%;
+    overflow: hidden;
+}
+
+.brand {
+    float: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 18px 0;
+}
+
+.nav-links {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-links li {
+    float: left;
+}
+
+.nav-links a {
+    display: block;
+    color: #dbeafe;
+    padding: 24px 17px;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-links a:hover {
+    background-color: #1e3a5f;
+    color: white;
+    border-bottom-color: #38bdf8;
+}
+
+.nav-links a.active {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* ==========================================
+   TASK 4: HERO / INTRODUCTION
+   ========================================== */
+
+.hero {
+    width: 86%;
+    margin: 55px auto 45px;
+    padding: 65px 70px;
+    background-color: #e0f2fe;
+    border: 1px solid #bae6fd;
+    border-radius: 14px;
+}
+
+.hero h1 {
+    max-width: 720px;
+    margin: 8px 0 15px;
+    font-size: 45px;
+    line-height: 1.15;
+    color: #0f172a;
+}
+
+.hero p {
+    max-width: 720px;
+    color: #475569;
+}
+
+.eyebrow {
+    margin: 0;
+    color: #0284c7;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-button,
+.card-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 11px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: 1px solid #1d4ed8;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.hero-button:hover,
+.card-button:hover {
+    background-color: #0f172a;
+    border-color: #0f172a;
+}
+
+/* ==========================================
+   SECTION HEADINGS
+   ========================================== */
+
+.assignment-section {
+    width: 86%;
+    margin: 0 auto 70px;
+    padding: 25px 0;
+}
+
+.light-section {
+    width: 100%;
+    padding: 65px 7%;
+    background-color: #eef2f7;
+    border-top: 1px solid #dbe2ea;
+    border-bottom: 1px solid #dbe2ea;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    margin: 6px 0 8px;
+    font-size: 32px;
+    color: #0f172a;
+}
+
+.section-heading p:last-child {
+    color: #64748b;
+}
+
+/* ==========================================
+   TASK 2 & TASK 3: PRODUCT CARDS
+   ========================================== */
+
+.single-card-area {
+    text-align: center;
+}
+
+.product-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    min-height: 500px;
+    margin: 12px;
+    background-color: white;
+    border: 1px solid #dbe2ea;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(15, 23, 42, 0.08);
+}
+
+.product-card:hover {
+    border-color: #38bdf8;
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.15);
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.product-category {
+    margin: 0 0 5px;
+    color: #0284c7;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.product-card h3 {
+    margin: 0 0 9px;
+    color: #111827;
+    font-size: 22px;
+}
+
+.description {
+    min-height: 78px;
+    margin: 0 0 12px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.product-info {
+    margin: 5px 0;
+    color: #334155;
+    font-size: 13px;
+}
+
+.price {
+    margin: 15px 0 5px;
+    color: #0f172a;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.card-button {
+    font-size: 13px;
+}
+
+/* Make the single product card slightly larger
+   to visually distinguish Task 2. */
+.featured-card {
+    width: 320px;
+}
+
+.featured-card img {
+    height: 205px;
+}
+
+/* ==========================================
+   TASK 4: FOOTER
+   ========================================== */
+
+footer {
+    background-color: #111827;
+    color: #cbd5e1;
+    padding: 42px 7%;
+    text-align: center;
+}
+
+.footer-content h2 {
+    margin: 0 0 5px;
+    color: white;
+}
+
+.footer-content p {
+    margin: 4px 0;
+}
+
+.copyright {
+    margin-top: 20px !important;
+    font-size: 13px;
+    color: #94a3b8;
+}
